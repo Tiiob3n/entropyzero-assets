@@ -1,0 +1,35 @@
+[appearance]
+	#Your server's name. Use #SERVERNAME in header/footer to insert it.
+	server_name = "EntropyZero : Abyss"
+	#Text shown above the player list. Multiple entries create animation frames.
+	header = [
+		"#N&r<gradient:#5B2DB8:#28E0FF>&l  ✦  E N T R O P Y   Z E R O  ✦  </gradient>#N&r&7&o— A B Y S S —#N&r&8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬#N&r&7Bienvenue, &f&l#PLAYERNAME&r&7. Descends.#N",
+		"#N&r<gradient:#7B3FE4:#5FF0FF>&l  ✧  E N T R O P Y   Z E R O  ✧  </gradient>#N&r&7&o— A B Y S S —#N&r&8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬#N&r&7Bienvenue, &f&l#PLAYERNAME&r&7. Descends.#N",
+		"#N&r<gradient:#9A5CFF:#28E0FF>&l  ✦  E N T R O P Y   Z E R O  ✦  </gradient>#N&r&7&o— A B Y S S —#N&r&8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬#N&r&7Bienvenue, &f&l#PLAYERNAME&r&7. Descends.#N",
+		"#N&r<gradient:#28E0FF:#5B2DB8>&l  ✧  E N T R O P Y   Z E R O  ✧  </gradient>#N&r&7&o— A B Y S S —#N&r&8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬#N&r&7Bienvenue, &f&l#PLAYERNAME&r&7. Descends.#N",
+		"#N&r<gradient:#5FF0FF:#7B3FE4>&l  ✦  E N T R O P Y   Z E R O  ✦  </gradient>#N&r&7&o— A B Y S S —#N&r&8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬#N&r&7Bienvenue, &f&l#PLAYERNAME&r&7. Descends.#N",
+		"#N&r<gradient:#28E0FF:#9A5CFF>&l  ✧  E N T R O P Y   Z E R O  ✧  </gradient>#N&r&7&o— A B Y S S —#N&r&8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬#N&r&7Bienvenue, &f&l#PLAYERNAME&r&7. Descends.#N"
+	]
+	footer = [
+		"#N&r&8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬#N&r&7Joueurs &#28E0FF&l#PLAYERCOUNT&r&8/&7#MAXPLAYERS   &8•   &7TPS #CTPS   &8•   &7RAM &#7B3FE4#MEMORY#N&r&8#DATE  &7#TIME#N",
+		"#N&r&8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬#N&r&7Joueurs &#28E0FF&l#PLAYERCOUNT&r&8/&7#MAXPLAYERS   &8•   &7TPS #CTPS   &8•   &7RAM &#7B3FE4#MEMORY#N&r&7En ligne depuis &#7B3FE4#UPTIME#N"
+	]
+	#Display name format.
+	display_name_format = "{prefix}&f{name} &8[&#28E0FF{ping}ms&8] &7#AFK"
+	#How often (ms) the tab list refreshes. Range: 1-10000. Default: 500.
+	update_interval = 500
+	#Update cycles between animation frame changes. Range: 1-200. Default: 4.
+	animation_interval = 2
+	#Name formatting and rank sorting provider: NONE, FTB, or LP (LuckPerms).
+	name_formatting_provider = "FTB"
+
+[sorting]
+	#How to sort players: NONE, ALPHABETICAL, or RANK.
+	sort_mode = "ALPHABETICAL"
+
+[afk]
+	afk_enabled = true
+	afk_timeout = 300
+
+[performance]
+	metrics_provider = "VANILLA"
